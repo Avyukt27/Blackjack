@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument(
-    '-debug', '--debug',
+    '-debug',
     default=0,
     type=int,
     choices=[0, 1],
